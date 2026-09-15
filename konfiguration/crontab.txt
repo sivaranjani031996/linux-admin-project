@@ -1,0 +1,5 @@
+0 17 * * * /opt/company/scripts/backup-company.sh
+30 16 * * * /opt/company/scripts/daily-admin-report.sh
+0 * * * * /opt/company/scripts/check-disk.sh
+0 18 * * 5 /opt/company/scripts/log-report.sh
+0 19 * * 5 /opt/company/scripts/cleanup-old-files.sh
